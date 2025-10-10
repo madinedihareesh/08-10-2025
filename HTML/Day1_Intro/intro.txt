@@ -1,0 +1,40 @@
+HTML: 
+HTML is used to create static webpages/website
+HTML is acting as a backbone for all web related appliction 
+
+HTML: tim brenrece lee in 1989
+HTML 1.0 1991
+HTML 2.0 1995
+HTML 3.0 1997
+HTML 4.0 1999
+XHTML 2000
+HTML 5.0 2014
+
+
+<!DOCTYPE html> --this purticuler webpage is using HTML 5 version
+<html lang="en"> --open up html page/ lang=en
+<head> --
+    <meta charset="UTF-8"> --
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+Tag: <tagname>
+A tag is nothing but prep defined properties
+two types of tags:
+1. paried tages(opening tag, closing tag)
+2. unpaired tag(hr,br)
+
+<opening tag>Content</closing tag> element
+
+two types:
+1. inline elements
+2. block level elements
+
+attributes:
+add ons
+
