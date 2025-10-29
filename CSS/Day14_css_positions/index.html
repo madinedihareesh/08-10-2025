@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+      integrity="sha512-…(integrity hash)…" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" />
+    <title>Positions</title>
+    <style>
+        .static{
+            border: 2px solid black;
+            background-color: red;
+            color: white;
+            text-align: center;
+            position: static;
+        }
+        body{
+            height: 800px;
+        }
+        .absolute{
+            border: 2px solid black;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 200px;
+        }
+        .relative{
+            border: 2px solid black;
+            background-color: green;
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 50px;
+            height: 100px;
+            width: 100px;
+            align-content: center;
+            z-index: 10;
+        }
+        .fixed{
+            border: 2px solid black;
+            background-color: gray;
+            color: white;
+            text-align: center;
+            position: fixed;
+            top: 0px;
+        }
+        .sticky{
+            border: 2px solid black;
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            position: sticky;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    types of positions:
+    1. static
+    2.absolute
+      a. it is converting from block level to inline 
+      b. it is moving along with the page flow
+      c. it listens to the browser view port
+    3.relative
+      a.it will never convert from block level to inline
+      b.it is following the page flow
+      c.it will never listens to the browser view port but it listens to its curret position
+    4.fixed
+     a.it is converting from block level to inline
+     b.it never follows the page flow
+     c. it listens to the browser view port
+    5.sticky
+      a. it will never convert from block level to inline
+      b. it will follows the page flow but it will stick to its given position
+
+    sub properties:
+    top 
+    left
+    right
+    bottom
+    z-index
+     -->
+    <div class="static">static</div>
+    <div class="absolute">absolute</div>
+    <b>bold</b>
+    <div class="relative">relative</div>
+    <div class="fixed">fixed</div>
+    <div class="sticky">sticky</div>
+    <i class="fa-solid fa-cart-shopping"></i>
+</body>
+</html>
