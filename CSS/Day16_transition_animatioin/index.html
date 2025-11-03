@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        transition property:
+        trnasition-duration:
+        transition-timing-function:ease,ease-in,easae-out,ease-in-out,linear
+        transition-delay: 1s 0.8s ms
+         */
+        .change{
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            color: white;
+            background-color: blue;
+            text-align: center;
+            align-content: center;
+            transition: all 3s linear 1s;
+            transform: translate(200px,200px);
+        }
+        .change:hover{
+            border-radius: 50%;
+            background-color: red;
+            color: yellow;
+            transform: scale(1.5) rotate(30deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="change">welcome</div>
+</body>
+</html>

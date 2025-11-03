@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        [class^='squre']{
+            height: 300px;
+            width: 300px;
+            background-color: green;
+            color: white;
+            margin-bottom: 20px;
+            text-align: center;
+            align-content: center;
+        }
+        .squre1{
+            transition-property: 'width';
+            transition-duration: 3s;
+            transition-timing-function: ease;
+            transition-delay: 1s;
+        }
+        .squre1:hover{
+            width: 500px;
+        }
+         .squre2{
+            transition-property: 'width';
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+            transition-delay: 1s;
+        }
+        .squre2:hover{
+            width: 500px;
+        }
+         .squre3{
+            transition-property: 'width';
+            transition-duration: 3s;
+            transition-timing-function: ease-out;
+            transition-delay: 1s;
+        }
+        .squre3:hover{
+            width: 500px;
+        }
+         .squre4{
+            transition-property: 'width';
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+        }
+        .squre4:hover{
+            width: 500px;
+        }
+         .squre5{
+            transition-property: 'width';
+            transition-duration: 3s;
+            transition-timing-function: linear;
+            transition-delay: 1s;
+        }
+        .squre5:hover{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="squre1">ease</div>
+    <div class="squre2">ease-in</div>
+    <div class="squre3">ease-out</div>
+    <div class="squre4">ease-in-out</div>
+    <div class="squre5">linier</div>
+</body>
+</html>
